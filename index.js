@@ -144,15 +144,15 @@
 // let negativeRatio = (negative / len).toFixed(6);
 // let zeroRatio = (zero / len).toFixed(6);
 
-// console.log(postiveRatio);
-// console.log(negativeRatio);
-// console.log(zeroRatio);
+console.log(postiveRatio);
+console.log(negativeRatio);
+console.log(zeroRatio);
 
-// let arr = 4;
+let arr2 = 4;
 
-// for (var i=1; i<=arr; i++) {
-//   console.log(("#").repeat(i).padStart(arr,"1"))
-// }
+for (var i=1; i<=arr; i++) {
+  console.log(("#").repeat(i).padStart(arr,"1"))
+}
 
 let arr = [1, 2, 3, 4];
 
