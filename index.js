@@ -98,61 +98,61 @@
 
 // console.log(intersection)
 
-// let union = [...new Set([...arr1, ...arr2])];
-// console.log(union);
+let union = [...new Set([...arr1, ...arr2])];
+console.log(union);
 
-// let obj = {
-//   name: "Hassan",
-// };
+let obj = {
+  name: "Hassan",
+};
 
-// let obj2 = Object.assign({},obj);
-// obj2.name = "Kumail";
+let obj2 = Object.assign({},obj);
+obj2.name = "Kumail";
 
-// console.log(obj);
+console.log(obj);
 
-// let matrix = [
-//   [1, 2, 3],
-//   [4, 5, 6],
-//   [7, 8, 9],
-// ];
+let matrix = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9],
+];
 
-// let flat = matrix.flat();
-// console.log(flat);
+let flat = matrix.flat();
+console.log(flat);
 
-// let arr = [1, 1, 0, -1, -1];
+let arr3 = [1, 1, 0, -1, -1];
 
-// let len = arr.length;
-// let positive = 0;
-// let negative = 0;
-// let zero = 0;
+let len = arr.length;
+let positive = 0;
+let negative = 0;
+let zero = 0;
 
-// for (var i = 0; i < len; i++) {
-//   // console.log(-1 === Math.sign(arr[i]))
-//   console.log(i)
-//   if (1 === Math.sign(arr[i])) {
-//     positive += 1;
-//   }
-//   if (-1 === Math.sign(arr[i])) {
-//     negative += 1;
-//   }
-//   if (0 === Math.sign(arr[i])) {
-//     zero += 1;
-//   }
-// }
-
-// let postiveRatio = (positive / len).toFixed(6);
-// let negativeRatio = (negative / len).toFixed(6);
-// let zeroRatio = (zero / len).toFixed(6);
-
-console.log(postiveRatio);
-console.log(negativeRatio);
-console.log(zeroRatio);
-
-let arr2 = 4;
-
-for (var i=1; i<=arr; i++) {
-  console.log(("#").repeat(i).padStart(arr,"1"))
+for (var i = 0; i < len; i++) {
+  // console.log(-1 === Math.sign(arr[i]))
+  console.log(i)
+  if (1 === Math.sign(arr[i])) {
+    positive += 1;
+  }
+  if (-1 === Math.sign(arr[i])) {
+    negative += 1;
+  }
+  if (0 === Math.sign(arr[i])) {
+    zero += 1;
+  }
 }
+
+let postiveRatio = (positive / len).toFixed(6);
+let negativeRatio = (negative / len).toFixed(6);
+let zeroRatio = (zero / len).toFixed(6);
+
+// console.log(postiveRatio);
+// console.log(negativeRatio);
+// console.log(zeroRatio);
+
+// let arr2 = 4;
+
+// for (var i=1; i<=arr; i++) {
+//   console.log(("#").repeat(i).padStart(arr,"1"))
+// }
 
 let arr = [1, 2, 3, 4];
 
