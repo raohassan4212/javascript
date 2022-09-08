@@ -52,51 +52,51 @@
 // let a0 = [17, 28, 30];
 // let b0 = [99, 16, 8];
 
-// let Alice = 0;
-// let Bob = 0;
+let Alice = 0;
+let Bob = 0;
 
-// for (var i = 0; i < a.length; i++) {
-//   if (a[i] > b[i]) {
-//     Alice += 1;
-//     console.log("Alice");
-//   }
-// }
+for (var i = 0; i < a.length; i++) {
+  if (a[i] > b[i]) {
+    Alice += 1;
+    console.log("Alice");
+  }
+}
 
-// for (var i = 0; i < a.length; i++) {
-//   if (a[i] < b[i]) {
-//     Bob += 1;
-//     console.log("Bob");
-//   }
-// }
+for (var i = 0; i < a.length; i++) {
+  if (a[i] < b[i]) {
+    Bob += 1;
+    console.log("Bob");
+  }
+}
 
-// console.log(Alice, Bob);
+console.log(Alice, Bob);
 
-// let matrix = [
-//   [1, 2, 3],
-//   [4, 5, 6],
-//   [7, 8, 9],
-// ];
+let matrixs = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9],
+];
 
 let arr1 = [1, 2, 3, 4, 5];
 let arr2 = [3, 4, 5, 6, 7];
 
-let intersections = []
+let intersections = [];
 
 for (var i = 0; i < arr1.length; i++) {
-    for (var j = 0; j < arr2.length; j++) {
-        if (arr1[i] === arr2[j]) {
-            intersection.push(arr1[i]);
-        }
+  for (var j = 0; j < arr2.length; j++) {
+    if (arr1[i] === arr2[j]) {
+      intersection.push(arr1[i]);
     }
+  }
 }
 
-console.log(intersection)
+console.log(intersection);
 
 let intersection = arr1.filter((val) => {
-    return arr2.includes(val)
-})
+  return arr2.includes(val);
+});
 
-console.log(intersection)
+console.log(intersection);
 
 let union = [...new Set([...arr1, ...arr2])];
 console.log(union);
@@ -105,7 +105,7 @@ let obj = {
   name: "Hassan",
 };
 
-let obj2 = Object.assign({},obj);
+let obj2 = Object.assign({}, obj);
 obj2.name = "Kumail";
 
 console.log(obj);
@@ -128,7 +128,7 @@ let zero = 0;
 
 for (var i = 0; i < len; i++) {
   // console.log(-1 === Math.sign(arr[i]))
-  console.log(i)
+  console.log(i);
   if (1 === Math.sign(arr[i])) {
     positive += 1;
   }
