@@ -40,17 +40,17 @@
 // let a3 = a1.concat(a2);
 // console.log(a3);
 
-// let arr = [1, 2, 3, 4, 5];
+let arr7 = [1, 2, 3, 4, 5];
 
-// let sum = arr.reduce((a, b) => a + b);
-// let maxVal = Math.max(...arr);
-// let minVal = Math.min(...arr);
-// console.log("Max ===>", maxVal);
-// console.log("Min ===>", minVal);
-// console.log((sum - maxVal) + ' ' + (sum - minVal));
+let sum = arr7.reduce((a, b) => a + b);
+let maxVal = Math.max(...arr);
+let minVal = Math.min(...arr);
+console.log("Max ===>", maxVal);
+console.log("Min ===>", minVal);
+console.log((sum - maxVal) + ' ' + (sum - minVal));
 
-// let a0 = [17, 28, 30];
-// let b0 = [99, 16, 8];
+let a0 = [17, 28, 30];
+let b0 = [99, 16, 8];
 
 let Alice = 0;
 let Bob = 0;
