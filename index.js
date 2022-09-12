@@ -28,17 +28,17 @@
 
 // let array5 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-// let c = array5.find((val) => {
-//   return val > 5;
-// });
+let c = array5.find((val) => {
+  return val > 5;
+});
 
-// console.log(c);
+console.log(c);
 
-// let a1 = ["Rao ", "Salam "];
-// let a2 = ["Hassan", "Khan"];
+let a1 = ["Rao ", "Salam "];
+let a2 = ["Hassan", "Khan"];
 
-// let a3 = a1.concat(a2);
-// console.log(a3);
+let a3 = a1.concat(a2);
+console.log(a3);
 
 let arr7 = [1, 2, 3, 4, 5];
 
