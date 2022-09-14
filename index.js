@@ -18,15 +18,15 @@
 
 // console.log(a);
 
-// let array4 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let array4 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-// let b = array4.filter((val) => {
-//   return val <= 5;
-// });
+let b = array4.filter((val) => {
+  return val <= 5;
+});
 
-// console.log(b);
+console.log(b);
 
-// let array5 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let array5 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 let c = array5.find((val) => {
   return val > 5;
