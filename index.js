@@ -10,13 +10,13 @@
 
 // console.log(y);
 
-// let array3 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let array3 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-// let a = array3.map((val) => {
-//   return val + 1;
-// });
+let a = array3.map((val) => {
+  return val + 1;
+});
 
-// console.log(a);
+console.log(a);
 
 let array4 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
