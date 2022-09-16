@@ -1,14 +1,14 @@
-// let array = [2, 5, 1, 4, 3];
+let array = [2, 5, 1, 4, 3];
 
-// let x = array.sort();
+let x = array.sort();
 
-// console.log(x);
+console.log(x);
 
-// let array2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let array2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-// let y = array2.reverse();
+let y = array2.reverse();
 
-// console.log(y);
+console.log(y);
 
 let array3 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
