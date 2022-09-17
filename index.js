@@ -159,3 +159,16 @@ let arr = [1, 2, 3, 4];
 let max = Math.max(...arr);
 
 console.log(max);
+
+
+let array8 = [2, 5, 1, 4, 3];
+
+let x8 = array8.sort();
+
+console.log(x8);
+
+let array7 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+let y2 = array7.reverse();
+
+console.log(y2);
