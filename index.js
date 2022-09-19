@@ -172,3 +172,13 @@ let array7 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 let y2 = array7.reverse();
 
 console.log(y2);
+
+let array77 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+let y22 = array7.reverse();
+
+console.log(y2);
+
+
+let y222 = array7.reverse();
+let y223 = array7.reverse();
