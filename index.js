@@ -182,3 +182,11 @@ console.log(y2);
 
 let y222 = array7.reverse();
 let y223 = array7.reverse();
+
+let y22222 = array7.reverse();
+
+console.log(y2);
+
+
+let y2222 = array7.reverse();
+let y2233 = array7.reverse();
